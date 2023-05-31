@@ -1,0 +1,91 @@
+ul{
+    list-style: none;
+}
+*{
+    background-color: rgb(236, 235, 235);    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgb(174, 171, 171);
+    border-radius: 2rem;
+    margin: 2rem 30rem;
+}
+form ul{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0rem 2rem;
+}
+form li{
+    display: flex;
+    align-items: center;
+}
+input{
+    background-color: gray;
+    border-radius: 1.2rem;
+    box-shadow: 2px 2px 6px rgb(174, 171, 171);
+    border: none;
+    padding: 0.3rem 1rem;
+
+}
+.formList h5{
+    text-align: center;
+    color: rgb(54, 97, 134);
+    font-weight: 800;
+    font-size: 1.2em;
+    padding-right: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttonForm{
+    border-radius: 2rem;
+    padding: .3rem 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    box-shadow: 2px 2px 6px rgb(174, 171, 171);
+    background-color: rgb(32, 161, 216);
+}
+.buttonForm:hover{
+    cursor: pointer;
+    background-color: rgb(25, 125, 167);
+
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.completeForm{
+    color: blue;
+}
+.CardForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgb(174, 171, 171);
+    border-radius: 2rem;
+    margin: 2rem 30rem;
+    background-color: rgb(32, 161, 216);
+
+}
+.CardForm h2{
+    color: aliceblue;
+    background-color: rgb(32, 161, 216);
+}
+.CardForm ul{
+    background-color: rgb(32, 161, 216);
+}
+.CardForm li{
+    background-color: rgb(32, 161, 216);    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
